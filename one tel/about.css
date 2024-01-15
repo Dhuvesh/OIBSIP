@@ -1,0 +1,243 @@
+body {
+	background-color: black;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+}
+.header{
+	color: rgb(68,84,110);
+	background-color: rgb(32,32,32);
+	width: 940px;
+	height: 70px;
+	margin-top: 20px;
+	border-left-style:solid;
+	border-left-color:rgb(68,84,110);
+	border-left-width: 6px;
+	position:absolute;
+	
+	
+	
+}
+.menu li a{
+	font-size: 15px;
+	padding:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-transform:uppercase;
+	color:white;
+}
+.z1{
+	padding-bottom: 60px;
+	width: 1000px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.menu li  hover{
+	background-color: rgb(242,242,242);
+	transition: 0.4s;
+}
+
+.img3{
+	background: url(images/about-header.jpg);
+	
+	height:500px;
+	/*border: solid 1px white;*/
+	
+	background-size: cover;
+	background-position: center;
+}
+.c1 h2{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+
+
+}
+.c1 p{
+	text-align: center;
+	color: rgb(128,128,128);
+	margin-bottom: 60px;
+}
+.team-wrapped{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.c2{
+	border:solid 2px ;
+	padding: 20px;
+}
+
+.c2 h3{
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+.c2 h5{
+	color: rgb(213,74,182);
+	text-transform: capitalize;
+	margin-bottom: 20px;
+
+}
+.c2 p{
+	color: rgb(128,128,128);
+}
+.heading-border{
+	margin-bottom: 60px;
+	padding-bottom: 100px;
+	border-bottom: solid 1px ;
+	border-color: rgb(128,128,128);
+	
+}
+.c3 h4{
+	text-transform: uppercase;
+	color: white;
+}
+
+.c3 p{
+	color: rgb(128,128,128);
+	text-align: justify;
+}
+.footer-up{
+	background-color: rgb(28,28,28);
+	color: rgb(128,128,128);
+	padding-top: 60px;
+	margin: 0px;
+	
+
+}
+.f1 img{
+	margin-bottom: 10px;
+}
+.f1 p{
+	
+	font-size: 14px;
+	margin-bottom: 10px;
+
+}
+.f1 p i{
+	font-size: 18px;
+	margin-right: 10px;
+	padding:5px;
+}
+.f2 h3{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+.f2 p a{
+	color: rgb(128,128,128);
+	text-decoration: none;
+}
+.f2 p{
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+.f3 h3{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+.f3 form button{
+	border: solid 2px;
+	color: white;
+	margin-top: 20px;
+
+}
+.f3 form input{
+	border: solid 2px;
+	color: white;
+	background-color: black;
+}
+.footer-bottom{
+	margin-top: 30px;
+}
+.w1{
+	width: 1000px;
+}
+
+.social-icons li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	padding: 10px 15px;
+	background-color: rgb(45,45,45);
+	cursor: pointer;
+ 
+}
+
+.progress{
+	height: 10px;
+}
+.b1 div p{
+	text-transform: uppercase;
+	color: rgb(128,128,128);
+	font-size: 15px;
+	font-weight: 700;
+}
+.w-75{
+	width: 90% !important;
+}
+.d1{
+	background-color: rgb(240,173,78);
+	
+}
+.d2{
+	background-color: rgb(217,83,79);
+	
+}
+.d3{
+	background-color: rgb(51,122,183);
+	
+}
+.progress{
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 575px){
+	body{
+		font-weight: 500;
+	}
+	.k2{
+		padding: 0px;
+	}
+	
+	.z1{
+		width: auto;
+	}
+	.header{
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+	.menu li a{
+		padding-right:5px;
+		padding-left: 5px;
+	}
+	.menu{
+		text-align: center;
+		padding-right: 25px;
+	}
+	.h3{
+		font-size: 17px;
+	}
+	.h1{
+		font-size: 17px;
+	}
+	.img3{
+		height:300px;
+	}
+	.team-wrapped{
+		margin-bottom: 15px;
+	}
+
+}
+
+    
+	
+
+
+
